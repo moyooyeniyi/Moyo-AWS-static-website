@@ -73,4 +73,4 @@ After configuring static website hosting, public access settings, and the bucket
 
 The website is now publicly accessible through the S3 website endpoint.
 
-![Website Live on AWS](images/07-website-live.png)
+![Website Live on AWS](images/07-website-live1.png)

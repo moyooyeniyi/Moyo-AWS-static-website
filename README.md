@@ -123,10 +123,8 @@ Static Website Files
 
 
 
----
 
-```md
-## AWS Services Used
+AWS Services Used
 
 - Amazon S3
 - Amazon CloudFront
@@ -135,7 +133,7 @@ Static Website Files
 
 
 
-## Security and Access Control
+Security and Access Control
 
 AWS Identity and Access Management (IAM) was used to manage permissions and control access to AWS resources.
 
@@ -143,7 +141,7 @@ Bucket policies were configured to allow public read access to website files, wh
 
 
 
-## What I Learned
+What I Learned
 
 Through this project I learned:
 
@@ -157,7 +155,7 @@ Through this project I learned:
 - Basic troubleshooting when working with AWS services
 
 
-## Challenges Faced
+Challenges Faced
 
 - Configuring bucket permissions correctly
 - Fixing bucket policy syntax issues
@@ -165,7 +163,7 @@ Through this project I learned:
 - Troubleshooting Git and GitHub repository setup
 
 
-## Future Improvements
+Future Improvements
 
 - Connect a custom domain using Route 53
 - Secure the website with HTTPS

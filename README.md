@@ -84,3 +84,11 @@ I created an Amazon CloudFront distribution and connected it to my S3 bucket.
 CloudFront acts as a Content Delivery Network (CDN), helping improve performance and providing a more production-ready architecture.
 
 ![CloudFront Distribution](images/09-cloudfront-distribution-created.png)
+
+## Step 9: Website Delivered Through CloudFront
+
+After the CloudFront distribution finished deploying, I successfully accessed my website through the CloudFront domain.
+
+This setup improves website performance and follows AWS best practices for static website delivery.
+
+![CloudFront Website Live](images/10-cloudfront-website-live.png)

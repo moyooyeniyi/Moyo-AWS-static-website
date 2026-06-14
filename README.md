@@ -74,3 +74,13 @@ After configuring static website hosting, public access settings, and the bucket
 The website is now publicly accessible through the S3 website endpoint.
 
 ![Website Live on AWS](images/07-website-live1.png)
+
+
+
+## Step 8: Created CloudFront Distribution
+
+I created an Amazon CloudFront distribution and connected it to my S3 bucket.
+
+CloudFront acts as a Content Delivery Network (CDN), helping improve performance and providing a more production-ready architecture.
+
+![CloudFront Distribution](images/09-cloudfront-distribution-created.png)

@@ -31,8 +31,20 @@ I created an Amazon S3 bucket that will host my static website.
 
 ![S3 Bucket Created](images/02-s3-bucket-created.png)
 
+
+
+
 ## Step 3: Enabled Static Website Hosting
 
 I enabled static website hosting on my S3 bucket and configured index.html as the landing page.
 
 ![Static Website Hosting](images/03-static-hosting-enabled.png)
+
+
+## Step 4: Uploaded Website Files to S3
+
+I uploaded my website files (index.html and style.css) to my Amazon S3 bucket.
+
+These files will be used to host the static website.
+
+![Files Uploaded](images/04-files-uploaded.png)

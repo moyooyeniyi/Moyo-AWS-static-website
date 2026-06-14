@@ -66,3 +66,11 @@ I configured a bucket policy to allow public read access to the objects stored i
 This policy allows visitors to access the website files through the S3 website endpoint.
 
 ![Bucket Policy Added](images/06-bucket-policy-added.png)
+
+## Step 7: Website Live on AWS
+
+After configuring static website hosting, public access settings, and the bucket policy, I successfully hosted my website on AWS S3.
+
+The website is now publicly accessible through the S3 website endpoint.
+
+![Website Live on AWS](images/07-website-live.png)

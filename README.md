@@ -107,3 +107,68 @@ AWS Identity and Access Management (IAM) was used to control access to AWS resou
 IAM enables secure management of users, permissions, and policies, ensuring that only authorized users can perform actions on cloud resources.
 
 ![IAM User Created](images/11-iam-user-created.png)
+
+
+## Architecture
+
+```text
+User
+  ↓
+CloudFront Distribution
+  ↓
+Amazon S3 Bucket
+  ↓
+Static Website Files
+
+
+
+
+---
+
+```md
+## AWS Services Used
+
+- Amazon S3
+- Amazon CloudFront
+- AWS IAM
+- GitHub
+
+
+
+## Security and Access Control
+
+AWS Identity and Access Management (IAM) was used to manage permissions and control access to AWS resources.
+
+Bucket policies were configured to allow public read access to website files, while IAM provides secure access management for AWS users and administrators.
+
+
+
+## What I Learned
+
+Through this project I learned:
+
+- How to create and configure an S3 bucket
+- How static website hosting works in AWS
+- How to upload website files to S3
+- How bucket policies control access to resources
+- How CloudFront improves website performance
+- How IAM helps secure AWS environments
+- How to document cloud projects using GitHub
+- Basic troubleshooting when working with AWS services
+
+
+## Challenges Faced
+
+- Configuring bucket permissions correctly
+- Fixing bucket policy syntax issues
+- Understanding how CloudFront connects to S3
+- Troubleshooting Git and GitHub repository setup
+
+
+## Future Improvements
+
+- Connect a custom domain using Route 53
+- Secure the website with HTTPS
+- Automate deployments using GitHub Actions
+- Deploy future website updates automatically
+- Rebuild the infrastructure using Terraform

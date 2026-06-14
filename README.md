@@ -92,3 +92,18 @@ After the CloudFront distribution finished deploying, I successfully accessed my
 This setup improves website performance and follows AWS best practices for static website delivery.
 
 ![CloudFront Website Live](images/10-cloudfront-website-live.png)
+
+
+## Step 10: Created IAM User
+
+I created an IAM user and assigned permissions required to manage Amazon S3 resources.
+
+This demonstrates how AWS Identity and Access Management (IAM) can be used to control access to cloud resources following security best practices.
+
+## Security and Access Control
+
+AWS Identity and Access Management (IAM) was used to control access to AWS resources.
+
+IAM enables secure management of users, permissions, and policies, ensuring that only authorized users can perform actions on cloud resources.
+
+![IAM User Created](images/11-iam-user-created.png)

@@ -59,3 +59,10 @@ This allows visitors to access the website files stored in the bucket.
 ![Public Access Enabled](images/05-public-access-enabled.png)
 
 
+## Step 6: Added Bucket Policy
+
+I configured a bucket policy to allow public read access to the objects stored in my Amazon S3 bucket.
+
+This policy allows visitors to access the website files through the S3 website endpoint.
+
+![Bucket Policy Added](images/06-bucket-policy-added.png)

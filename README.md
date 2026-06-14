@@ -16,11 +16,23 @@ The goal is to build and host a static website using AWS S3.
 
 ## Progress
 
-### Step 1: Created Website Files
+
+## Step 1: Created Website Files
+
+This is the first version of my website running locally.
 
 ![Local Website](images/01-local-website.png)
 
 
 
+## Step 2: Created S3 Bucket
+
+I created an Amazon S3 bucket that will host my static website.
+
 ![S3 Bucket Created](images/02-s3-bucket-created.png)
 
+## Step 3: Enabled Static Website Hosting
+
+I enabled static website hosting on my S3 bucket and configured index.html as the landing page.
+
+![Static Website Hosting](images/03-static-hosting-enabled.png)

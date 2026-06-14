@@ -48,3 +48,14 @@ I uploaded my website files (index.html and style.css) to my Amazon S3 bucket.
 These files will be used to host the static website.
 
 ![Files Uploaded](images/04-files-uploaded.png)
+
+
+## Step 5: Enabled Public Access
+
+To make the website accessible from the internet, I updated the S3 bucket permissions and disabled Block Public Access settings.
+
+This allows visitors to access the website files stored in the bucket.
+
+![Public Access Enabled](images/05-public-access-enabled.png)
+
+
